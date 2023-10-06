@@ -11,6 +11,6 @@ jobs:
     runs-on: macos-latest
     run: date
   dependecies:
-  depends: [ubuntu,windows,mac]
+  needs: [ubuntu,windows,mac]
   runs-on: ubuntu-latest
   run: date
