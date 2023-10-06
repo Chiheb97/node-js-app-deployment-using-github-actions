@@ -14,7 +14,7 @@ jobs:
     steps:
      - run: date
   dependecies:
-  needs: [ubuntu, windows, mac]
-  runs-on: ubuntu-latest
-  steps:
-   - run: date
+   needs: [ubuntu, windows, mac]
+   runs-on: ubuntu-latest
+   steps:
+    - run: date
